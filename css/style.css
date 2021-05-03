@@ -1,26 +1,102 @@
-body{
-    font-family: Josefin Sans ;
-background-color:chocolate;
-    background-image: url("../img/cookie.jpeg");   
-}
-h1{
-    font-family:'font-family: 'Freckle Face', cursive';
-    font-size: 50px;
-   color: white;
-   text-align: center;
-}
-
-body nav ul li a{
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 40px;
-}
-
-/*body {
+body {
     font-family: "Grandstander", cursive;
+    text-decoration: none;
 }
-
-* {
-    box-sizing: border-box;
+header {
+    background-color: #e1701a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
 }
-
+header h1 {
+    color: #FFE3FE;
+    font-weight: bold;
+    float: left;
+}
+header nav {
+    float: right;
+    padding: 0 30px;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 0 30px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #FFE3FE;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+/*#hero {
+    background-image: url("../img/backGround.png");
+    height: 450px;
+    margin-top: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero h2 {
+    color: #FFE3FE;
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#program h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+#program p {
+    padding: 0px 30px;
+    color: #440A67;
+    line-height: 1.4;
+    text-align: justify;
+}
+#program p a {
+    text-decoration: none;
+    font-weight: 800;
+}
+#program p a:hover {
+    text-decoration: underline;
+    color: #B4AEE8;
+}
+#courses {
+    margin: 0 auto;
+    width: 90%;
+}
+.course-item {
+    background-color: #93329E;
+    margin: 10px 10px;
+    height: 100px;
+    width: 16%;
+    /* padding: 3%; 
+    float: left;
+    border-radius: 20px;
+}
+.course-item h3 {
+    color: #FFE3FE;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-align: center;
+}*/
+#para{
+    padding-top: 250px;
+}
+img{
+    padding-top: 200px;
+   width: 400;
+   position: relative ;
+}
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #e1701a;
+    padding: 15px;
+    text-align: center;
+    color: #FFE3FE;
+    font-weight: 600;
+    padding-top: 150px;
+}
