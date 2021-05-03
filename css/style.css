@@ -1,9 +1,26 @@
-/*body{
+body{
     font-family: Josefin Sans ;
+background-color:chocolate;
+    background-image: url("../img/cookie.jpeg");   
 }
-nav ul li a{
+h1{
+    font-family:'font-family: 'Freckle Face', cursive';
+    font-size: 50px;
+   color: white;
+   text-align: center;
+}
+
+body nav ul li a{
     text-decoration: none;
-
+    color: antiquewhite;
+    font-size: 40px;
 }
 
+/*body {
+    font-family: "Grandstander", cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
 
