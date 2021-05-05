@@ -2,12 +2,16 @@ body {
     font-family: "Grandstander", cursive;
     text-decoration: none;
 }
+table , th , td {
+    border: 1px solid black;
+}
 header {
     background-color: #e1701a;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     width: 100%;
     padding: 20px;
+    height:100px
 }
 header h1 {
     color: #FFE3FE;
@@ -27,6 +31,9 @@ header nav ul li a {
     color: #FFE3FE;
     text-transform: uppercase;
     font-size: 15px;
+}
+#position{
+    text-align: center;
 }
 /*#hero {
     background-image: url("../img/backGround.png");
@@ -81,10 +88,10 @@ header nav ul li a {
     padding-left: 15px;
     padding-top: 20px;
     text-align: center;
-}*/
+}
 #para{
     padding-top: 250px;
-}
+}*/
 img{
     padding-top: 200px;
    width: 400;
