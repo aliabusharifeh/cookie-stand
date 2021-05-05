@@ -32,9 +32,6 @@ header nav ul li a {
     text-transform: uppercase;
     font-size: 15px;
 }
-#position{
-    text-align: center;
-}
 /*#hero {
     background-image: url("../img/backGround.png");
     height: 450px;
