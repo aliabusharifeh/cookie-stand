@@ -8,20 +8,39 @@
         background-color: #e1701a ;
     }
 </style>
+<form>
+    <!--<label for="fname">:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">:</label><br>
+    <input type="text" id="lname" name="lname" value="">
+    <label for="lname">:</label><br>
+    <input type="text" id="lname" name="lname" value="">
+  </form>-->
 </head>
 <body>
     <header>
         <nav>
             <ul>
-             <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div id='table'></div>
         <div id='addStore'></div>
-  
     </main>
+    <fieldset>
+        <label> location: <br/>
+          <input type = "text" name = "location" /> </label><br/>
+        <label> min customer: <br/>
+          <input type = "text" name = "min customer" /> </label><br/>
+        <label> max customer: <br/>
+          <input type = "text" name = "max customer" /> </label><br/>
+        <label> avg cookie: <br/>
+          <input type = "text" name = "avg" /> </label><br/>
+    </fieldset>
+    <button type="button">Calculate</button>
     <script src="costructor.js"></script>
+    
 </body>
 </html>
